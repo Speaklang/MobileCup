@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">MobileCup</string>
+    <string name="app_name">RSS Reader</string>
     <string name="hello_world">Hello world!</string>
-    <string name="action_settings">Settings</string>
-
+    <string name="menu_settings">Settings</string>
+    <string name="tab_outros">Outros</string>
+    <string name="tab_outros2">Outros 2</string>
+    <string name="tab_esportes">Esportes</string>
 </resources>
