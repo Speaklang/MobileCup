@@ -25,6 +25,8 @@ public class MobileCupWS {
             "http://6e53a06b-7e51-41ab-828a-6e3df4e56186-bluemix.cloudant.com/" +
                     "fiap_arduino_db/_find";
 
+    public final static String SERVICE_MOBILE_CUP = "http://10.0.2.2:8080/MobileCupWebService/UsuarioServlet?";
+
 
     public final static String BODY_REQUEST = "{  \"selector\": {\"devCode\" : {\"$eq\": \"1\"},\"timestamp\": " +
             "{\"$gt\": 0 }},\"sort\": [{\"timestamp\": \"desc\"}  ],  \"limit\": 50 }";

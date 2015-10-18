@@ -35,7 +35,7 @@ tools:context="mobilecup.com.fiap.mobilecup.activities.LoginActivity">
             <TextView
                 style="@style/GrayBoldLabelStyle"
                 android:layout_marginBottom="@dimen/margin_between_elements_medium"
-                android:text="Login"
+                android:text="Cadastro"
                 android:textColor="@color/new_gray_dark"/>
 
             <EditText
@@ -43,6 +43,15 @@ tools:context="mobilecup.com.fiap.mobilecup.activities.LoginActivity">
                 style="@style/NovoEditTextStyle"
                 android:layout_marginBottom="@dimen/margin_between_elements_medium"
                 android:hint="Email" />
+
+            <EditText
+                style="@style/NovoEditTextStyle"
+                android:id="@+id/edtNome"
+                android:layout_marginBottom="@dimen/margin_between_elements_medium"
+                android:hint="Nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" />
 
             <EditText
                 android:id="@+id/edtSenha"
@@ -66,24 +75,13 @@ tools:context="mobilecup.com.fiap.mobilecup.activities.LoginActivity">
         android:paddingLeft="@dimen/margin_between_elements_extra_large">
 
         <Button
-            android:id="@+id/btnEntrar"
-            style="@style/OrangeButtonStyle"
-            android:layout_width="match_parent"
-            android:layout_marginBottom="@dimen/margin_between_elements_small"
-            android:layout_marginRight="@dimen/default_screen_margin"
-            android:layout_marginTop="@dimen/margin_between_elements_small"
-            android:layout_weight="1"
-            android:text="Entrar"
-            android:onClick="login" />
-
-        <Button
             android:id="@+id/edtRegistrar"
             style="@style/OrangeButtonStyle"
             android:layout_width="match_parent"
             android:layout_marginLeft="@dimen/default_screen_margin"
             android:layout_weight="1"
             android:text="Cadastrar"
-            android:onClick="register" />
+            android:onClick="cadastrar" />
     </LinearLayout>
 
 </RelativeLayout>

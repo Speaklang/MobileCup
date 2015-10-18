@@ -65,18 +65,18 @@
         <dex dex="C:\Users\User\Desktop\master\MobileCup\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-b808b3c55a18e294a40e7ea4cce0d2c29011e67e.jar" />
     </item>
     <item
-        jar="C:\Users\User\Desktop\fina merge\MobileCup\app\libs\Parse-1.4.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="1724acfaa5ad53f76aad702318391fed16cd98ca">
-        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\Parse-1.4.0-13df7a9f70dc8b391bd7b68ad09daf970dccc98f.jar" />
-    </item>
-    <item
         jar="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
         <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\classes-acf5cf16bc1dc0ed89853c84df6fcbc9f6d2ecc7.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\fina merge\MobileCup\app\libs\Parse-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1724acfaa5ad53f76aad702318391fed16cd98ca">
+        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\Parse-1.4.0-13df7a9f70dc8b391bd7b68ad09daf970dccc98f.jar" />
     </item>
     <item
         jar="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
