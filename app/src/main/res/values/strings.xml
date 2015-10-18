@@ -8,8 +8,8 @@
 
     <string name="title_activity_situacao_onibus">LoginActivity</string>
     <string name="title_activity_formulario">FormularioActivity</string>
-    <string name="tab_outros">Outros</string>
-    <string name="tab_outros2">Outros 2</string>
+    <string name="tab_outros">Mundo</string>
+    <string name="tab_outros2">Tecnologia</string>
     <string name="tab_esportes">Esportes</string>
 
 </resources>

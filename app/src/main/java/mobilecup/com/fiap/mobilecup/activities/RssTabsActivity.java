@@ -3,6 +3,7 @@ package mobilecup.com.fiap.mobilecup.activities;
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.Window;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
 
@@ -20,6 +21,7 @@ public class RssTabsActivity extends TabActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.requestWindowFeature(Window.FEATURE_NO_TITLE);
 
         // First, set the content view
         setContentView(R.layout.activity_rss_tabs);
@@ -32,7 +34,7 @@ public class RssTabsActivity extends TabActivity {
 		 */
         Intent artIntent = new Intent().setClass(this, RssChannelActivity.class);
         // Set Art category RSS URL
-        artIntent.putExtra("rss-url", "http://feeds.reuters.com/news/artsculture?format=xml");
+        artIntent.putExtra("rss-url", "http://g1.globo.com/dynamo/rss2.xml");
 
         // The name of the art tab taken from the String resources
         String artTabName = getResources().getString(R.string.tab_outros);
@@ -47,7 +49,7 @@ public class RssTabsActivity extends TabActivity {
 		 */
         Intent techIntent = new Intent().setClass(this, RssChannelActivity.class);
         // Set Tech category RSS URL
-        techIntent.putExtra("rss-url", "http://feeds.reuters.com/reuters/technologyNews?format=xml");
+        techIntent.putExtra("rss-url", "http://rss.tecmundo.com.br/feed");
 
         // Tech tab name taken from the string resources
         String techTabName = getResources().getString(R.string.tab_outros2);
@@ -63,7 +65,7 @@ public class RssTabsActivity extends TabActivity {
 		 */
         Intent sportsIntent = new Intent().setClass(this, RssChannelActivity.class);
         // Set Sports category RSS URL
-        sportsIntent.putExtra("rss-url", "http://feeds.reuters.com/reuters/sportsNews?format=xml");
+        sportsIntent.putExtra("rss-url", "http://globoesporte.globo.com/servico/semantica/editorias/plantao/feed.rss");
 
         // Sports tab name - string resources
         String sportsTabName = getResources().getString(R.string.tab_esportes);
