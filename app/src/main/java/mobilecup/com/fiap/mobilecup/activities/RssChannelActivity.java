@@ -1,4 +1,4 @@
-package mobilecup.com.fiap.mobilecup;
+package mobilecup.com.fiap.mobilecup.activities;
 
 import android.app.Activity;
 import android.os.AsyncTask;
@@ -9,6 +9,7 @@ import android.widget.ListView;
 
 import java.util.List;
 
+import mobilecup.com.fiap.mobilecup.R;
 import mobilecup.com.fiap.mobilecup.data.RssItem;
 import mobilecup.com.fiap.mobilecup.listeners.ListListener;
 import mobilecup.com.fiap.mobilecup.util.RssReader;

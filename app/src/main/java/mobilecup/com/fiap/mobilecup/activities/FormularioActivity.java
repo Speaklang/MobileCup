@@ -1,5 +1,6 @@
 package mobilecup.com.fiap.mobilecup.activities;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -12,7 +13,7 @@ import android.widget.Spinner;
 import mobilecup.com.fiap.mobilecup.R;
 
 
-public class FormularioActivity extends ActionBarActivity {
+public class FormularioActivity extends Activity {
 
     private Spinner sp;
 

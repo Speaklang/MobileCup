@@ -1,16 +1,15 @@
 package mobilecup.com.fiap.mobilecup.activities;
 
+import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-
-import com.google.gson.Gson;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -19,7 +18,7 @@ import mobilecup.com.fiap.mobilecup.R;
 import mobilecup.com.fiap.mobilecup.WS.MobileCupWS;
 
 
-public class SituacaoOnibusActivity extends ActionBarActivity {
+public class SituacaoOnibusActivity extends Activity {
 
 
 
@@ -40,7 +39,8 @@ public class SituacaoOnibusActivity extends ActionBarActivity {
 
 
     public void navigateNotice(View v){
-
+        Intent i = new Intent(this, RssTabsActivity.class);
+        startActivity(i);
     }
 
     public void update(View v){

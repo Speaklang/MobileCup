@@ -1,10 +1,13 @@
-package mobilecup.com.fiap.mobilecup;
+package mobilecup.com.fiap.mobilecup.activities;
 
 import android.app.TabActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TabHost;
 import android.widget.TabHost.TabSpec;
+
+import mobilecup.com.fiap.mobilecup.R;
+import mobilecup.com.fiap.mobilecup.activities.RssChannelActivity;
 
 /**
  * Created by Lucas on 17/10/2015.

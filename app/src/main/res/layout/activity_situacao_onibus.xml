@@ -36,7 +36,8 @@
         android:textSize="@dimen/label_size_small"
         android:layout_marginBottom="44dp"
         android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:onClick="navigateNotice" />
 
     <TextView
         android:layout_width="wrap_content"

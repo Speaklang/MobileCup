@@ -2,32 +2,53 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\Lucas\Desktop\MobileCup\MobileCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\libs\internal_impl-21.0.3.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
-        <dex dex="C:\Users\Lucas\Desktop\MobileCup\MobileCup\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-7556236b1aff0b9e972485620753305c8b994c91.jar" />
-    </item>
-    <item
-        jar="C:\Users\Lucas\Desktop\MobileCup\MobileCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\jars\classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
-        <dex dex="C:\Users\Lucas\Desktop\MobileCup\MobileCup\app\build\intermediates\pre-dexed\debug\classes-924f3343df2941a33ff173b4228e3404f0b3b45f.jar" />
-    </item>
-    <item
-        jar="D:\Users\Lucas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jar="C:\Users\User\AppData\Local\Android\sdk1\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
-        <dex dex="C:\Users\Lucas\Desktop\MobileCup\MobileCup\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-3c3535be0c74570d5088f1eb28da521bc98adb7c.jar" />
+        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-0b982024a11c6e7b6ad10831bb021086aaaeb5f8.jar" />
     </item>
     <item
-        jar="C:\Users\Lucas\Desktop\MobileCup\MobileCup\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\jars\classes.jar"
+        jar="C:\Users\User\Desktop\fina merge\MobileCup\app\libs\gson-2.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2f5481ff752b0e69ecba7070f8b0a645e570cc22">
+        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\gson-2.2-278da1837ef3c0a3bdd9f1051255f7d5f9c19ee6.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-0761e0251ca98dd0941cbfbea937672aafb7a8ee.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
         jumboMode="false"
         revision="21.1.2"
         sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
-        <dex dex="C:\Users\Lucas\Desktop\MobileCup\MobileCup\app\build\intermediates\pre-dexed\debug\classes-dfed3db1206833cd85bbde944f204ccc3c93a47c.jar" />
+        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\classes-acf5cf16bc1dc0ed89853c84df6fcbc9f6d2ecc7.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\fina merge\MobileCup\app\libs\Parse-1.4.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1724acfaa5ad53f76aad702318391fed16cd98ca">
+        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\Parse-1.4.0-13df7a9f70dc8b391bd7b68ad09daf970dccc98f.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\classes-505f144f0cdded5591a64c8af325baca47e8428b.jar" />
+    </item>
+    <item
+        jar="C:\Users\User\Desktop\fina merge\MobileCup\app\libs\gson-2.2-sources.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="50b59dd1197214ff682ad7bedd1526485a8d5de1">
+        <dex dex="C:\Users\User\Desktop\fina merge\MobileCup\app\build\intermediates\pre-dexed\debug\gson-2.2-sources-69ad8cb381c30ef88644c1633146482e6f0bcaa7.jar" />
     </item>
 
 </items>
