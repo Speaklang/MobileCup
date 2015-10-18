@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#ff000000</color>
+    <color name="white">#ffFFFFFF</color>
+    <color name="transparent">#00000000</color>
+    <color name="dark_transparent">#CC2f3940</color>
+    <color name="application_texts_color_gray">#ADAEAE</color>
+    <color name="gray">#adaeae</color>
+    <color name="gray_dark">#5E5E5E</color>
+    <color name="gray_light">#dadada</color>
+    <!-- * -->
+    <color name="orange_dark">#E07B1D</color>
+    <color name="orange_light">#ff8e1f</color>
+    <color name="orange">#fa8b1e</color>
+    <!-- * -->
+    <color name="text_orange">#f58220</color>
+    <color name="text_blue">#42648a</color>
+    <color name="text_gray">#707171</color>
+    <color name="text_green">#5dab2c</color>
+    <color name="text_light_gray">#dddddd</color>
+    <color name="text_purple">#8A7EC3</color>
+    <color name="text_dark_pink">#D0586E</color>
+    <color name="text_light_orange">#DD7820</color>
+    <color name="text_dark_green">#00A74B</color>
+    <color name="text_red">#A90000</color>
+    <color name="text_light_blue">#4991D0</color>
+    <color name="text_gray_blue">#597091</color>
+    <!-- * -->
+    <color name="seat_map_gray_bkg">#ececec</color>
+    <!-- * -->
+    <drawable name="transp_light_shadow">#11000000</drawable>
+
+    <drawable name="translucent_background">#d0FFFFFF</drawable>
+    <drawable name="transp_background">#00FFFFFF</drawable>
+
+    <color name="default_dialog_text_button">#157efb</color>
+
+    <!-- * -->
+    <color name="new_orange">#FF5A00</color>
+
+    <color name="new_gray">#EDEDF3</color>
+    <color name="new_gray_dark">#333333</color>
+    <color name="new_gray_light">#828282</color>
+
+
+    <color name="new_text_green">#009C3B</color>
+    <color name="new_text_red">#DA121A</color>
+    <color name="new_text_blue">#000E8A</color>
+
+</resources>

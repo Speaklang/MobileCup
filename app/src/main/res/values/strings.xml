@@ -2,8 +2,14 @@
 <resources>
     <string name="app_name">RSS Reader</string>
     <string name="hello_world">Hello world!</string>
-    <string name="menu_settings">Settings</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="title_activity_situacao_onibus">LoginActivity</string>
+    <string name="title_activity_formulario">FormularioActivity</string>
     <string name="tab_outros">Outros</string>
     <string name="tab_outros2">Outros 2</string>
     <string name="tab_esportes">Esportes</string>
+
 </resources>

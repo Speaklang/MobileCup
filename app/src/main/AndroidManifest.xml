@@ -18,13 +18,23 @@
         <activity
             android:name=".RssTabsActivity"
             android:label="@string/app_name" >
+        </activity>        <activity
+            android:name=".activities.SituacaoOnibusActivity"
+            android:label="@string/title_activity_situacao_onibus" >
+        </activity>
+        <activity
+            android:name=".activities.LoginActivity"
+            android:label="@string/title_activity_login" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity
+            android:name=".activities.FormularioActivity"
+            android:label="@string/title_activity_formulario" >
+        </activity>
         <activity android:name=".RssChannelActivity" />
 
     </application>

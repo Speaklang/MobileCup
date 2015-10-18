@@ -1,0 +1,160 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="mobilecup.com.fiap.mobilecup.activities.FormularioActivity">
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/header"
+        android:id="@+id/include" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Formação Academica:"
+        android:id="@+id/txtFormacaoAcademica"
+        android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:textColor="#ff000000"
+        android:paddingBottom="20dp"
+        android:layout_below="@+id/txtCInteresse"
+        android:layout_alignRight="@+id/txtPolitica"
+        android:layout_alignEnd="@+id/txtPolitica"
+        android:layout_marginTop="34dp"
+        android:layout_marginBottom="-15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Interesses"
+        android:id="@+id/txtInteresses"
+        android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:textColor="#ff000000"
+        android:layout_below="@+id/spFormacaoAcademica"
+        android:layout_alignLeft="@+id/txtFormacaoAcademica"
+        android:layout_alignStart="@+id/txtFormacaoAcademica" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Esportes"
+        android:id="@+id/chkEsportes"
+        android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:layout_below="@+id/txtInteresses"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="59dp"
+        android:layout_marginStart="59dp"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dinheiro"
+        android:id="@+id/chkDinheiro"
+        android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:layout_below="@+id/chkEsportes"
+        android:layout_alignLeft="@+id/chkEsportes"
+        android:layout_alignStart="@+id/chkEsportes"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Politica"
+        android:id="@+id/txtPolitica"
+        android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:layout_below="@+id/chkDinheiro"
+        android:layout_alignLeft="@+id/chkDinheiro"
+        android:layout_alignStart="@+id/chkDinheiro"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mundo"
+        android:id="@+id/chkMundo"
+        android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:layout_below="@+id/txtPolitica"
+        android:layout_alignLeft="@+id/txtPolitica"
+        android:layout_alignStart="@+id/txtPolitica"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pessoas"
+        android:id="@+id/txtPessoas"
+        android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:layout_below="@+id/chkMundo"
+        android:layout_alignLeft="@+id/chkMundo"
+        android:layout_alignStart="@+id/chkMundo"
+        android:checked="false" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Estilo de Vida"
+        android:id="@+id/txtEstiloVida"
+        android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:layout_below="@+id/txtPessoas"
+        android:layout_alignLeft="@+id/txtPessoas"
+        android:layout_alignStart="@+id/txtPessoas"
+        android:checked="false" />
+
+    <Button
+        android:id="@+id/btnDepois"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/novo_btn_orange"
+        android:paddingLeft="@dimen/margin_between_elements_small"
+        android:paddingRight="@dimen/margin_between_elements_small"
+        android:text="Responder depois"
+        android:textColor="@color/white"
+        android:textSize="@dimen/label_size_small"
+        android:onClick="responderDepois"
+        android:layout_below="@+id/btnEnviar"
+        android:layout_alignLeft="@+id/btnEnviar"
+        android:layout_alignStart="@+id/btnEnviar"
+        android:layout_marginTop="10dp" />
+
+    <Button
+        android:id="@+id/btnEnviar"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right|center_vertical"
+        android:background="@drawable/novo_btn_orange"
+        android:paddingLeft="@dimen/margin_between_elements_small"
+        android:paddingRight="@dimen/margin_between_elements_small"
+        android:text="Enviar"
+        android:textColor="@color/white"
+        android:textSize="@dimen/label_size_small"
+        android:onClick="enviar"
+        android:layout_below="@+id/txtEstiloVida"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Conte-nos sobre seus interesses."
+        android:id="@+id/txtCInteresse"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spFormacaoAcademica"
+        android:layout_below="@+id/txtFormacaoAcademica"
+        android:layout_alignLeft="@+id/txtFormacaoAcademica"
+        android:layout_alignStart="@+id/txtFormacaoAcademica"
+        android:spinnerMode="dialog"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="10dp" />
+
+
+</RelativeLayout>
