@@ -5,4 +5,144 @@
         <!-- Customize your theme here. -->
     </style>
 
+    <style name="DefaultStyle" parent="android:Theme.Light">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/application_texts_color_gray</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+    </style>
+
+    <style name="OrangeLeftButtonStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:gravity">center_vertical|left</item>
+        <item name="android:paddingBottom">@dimen/margin_between_elements_medium</item>
+        <item name="android:paddingTop">@dimen/margin_between_elements_medium</item>
+    </style>
+
+    <style name="OrangeButtonStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@drawable/novo_btn_orange</item>
+        <item name="android:paddingBottom">@dimen/margin_between_elements_medium</item>
+        <item name="android:paddingTop">@dimen/margin_between_elements_medium</item>
+    </style>
+
+
+
+    <style name="SubLabelStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">@dimen/label_size_small</item>
+    </style>
+
+    <style name="GrayBoldLabelStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GrayNormalLabelStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+    </style>
+
+    <style name="BlueLabelStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_blue</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="LightBlueLabelStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/text_light_blue</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="OrangeLabelStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/new_orange</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="EditTextStyle" parent="android:Theme.Light">
+
+
+    </style>
+
+
+    <style name="NovoEditTextStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textColorHint">@color/text_light_gray</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">@dimen/default_screen_margin</item>
+    </style>
+
+
+    <style name="NovoSpinnerStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/edittext_background</item>
+        <item name="android:textColor">@color/text_gray</item>
+        <item name="android:textColorHint">@color/text_light_gray</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:padding">@dimen/default_screen_margin</item>
+    </style>
+
+    <style name="WhiteLabelStyle" parent="android:Theme.Light">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/label_size_large</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingBottom">10dip</item>
+        <item name="android:paddingTop">10dip</item>
+        <item name="android:paddingLeft">20dip</item>
+        <item name="android:paddingRight">20dip</item>
+    </style>
+
+    <style name="CustomProgressDialog" parent="android:style/Theme.Translucent">
+        <item name="android:windowBackground">@drawable/translucent_background</item>
+    </style>
+
+
+    <style name="ExitButtonStyle">
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+    </style>
+
+
 </resources>

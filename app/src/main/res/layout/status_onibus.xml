@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:paddingTop="@dimen/margin_between_elements_small" >
+
+    <LinearLayout
+        android:id="@+id/checkin_passengers_left_component"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:background="@drawable/selector_btn_left_green"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_between_elements_small" >
+
+        <ImageView
+            android:id="@+id/checkin_passengers_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:contentDescription="Teste"
+            android:src="@drawable/checkin_passengers_checked" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_between_elements_small"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/checkin_passengers_label_checkin1"
+                style="@style/GrayNormalLabelStyle"
+                android:gravity="left"
+                android:text="Teste"
+                android:textColor="@color/white"
+                android:textSize="@dimen/label_size_small"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/checkin_passengers_label_checkin2"
+                style="@style/GrayNormalLabelStyle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="No Ponto"
+                android:textColor="@color/white"
+                android:textSize="@dimen/label_size_small" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/antecipate_passenger_item_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.25"
+        android:background="@drawable/btn_middle_gray"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_between_elements_small" >
+
+        <TextView
+            android:id="@+id/checkin_passengers_label_name"
+            style="@style/GrayNormalLabelStyle"
+            android:gravity="center_vertical"
+            android:text="FIAP BUS"
+            android:textSize="@dimen/label_size_medium"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/checkin_passengers_label_smiles_number"
+            style="@style/GrayNormalLabelStyle"
+            android:gravity="center_vertical"
+            android:text="50 LUGARES"
+            android:textSize="@dimen/label_size_medium"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

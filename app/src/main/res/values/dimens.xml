@@ -2,4 +2,26 @@
     <!-- Default screen margins, per the Android Design guidelines. -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>
+
+
+    <!-- Label Sizes -->
+    <dimen name="label_size_xlarge">20sp</dimen>
+    <dimen name="label_size_large">16sp</dimen>
+    <dimen name="label_size_medium">14sp</dimen>
+    <dimen name="label_size_small">12sp</dimen>
+
+    <!-- fixed width sizes -->
+    <!-- 10 * label_size_large -->
+    <dimen name="language_width">160sp</dimen>
+
+    <!-- Sizes -->
+    <dimen name="checkbox_size">20dp</dimen>
+    <dimen name="boarding_pass_icons">35dp</dimen>
+    <dimen name="margin_between_elements_very_small">1dp</dimen>
+    <dimen name="margin_between_elements_small">5dp</dimen>
+    <dimen name="margin_between_elements_medium">15dp</dimen>
+    <dimen name="margin_between_elements_large">22dp</dimen>
+    <dimen name="margin_between_elements_extra_large">35dp</dimen>
+    <dimen name="default_screen_margin">15dp</dimen>
+    <dimen name="margin_airplane_confirm_data">13dp</dimen>
 </resources>
