@@ -85,6 +85,11 @@ public class FormularioActivity extends Activity {
                 idInteresse.add(6);
             }
 
+            if(idInteresse.size() == 0){
+                Toast.makeText(getApplicationContext(), "Selecione ao menos um interesse", Toast.LENGTH_SHORT).show();
+                return;
+            }
+
             final UserGlobal user = (UserGlobal) getApplicationContext();
 
             List<NameValuePair> params = new LinkedList<NameValuePair>();
@@ -112,11 +117,6 @@ public class FormularioActivity extends Activity {
 
     }
 
-    public void responderDepois(View v) {
-        Intent i = new Intent(this, SituacaoOnibusActivity.class);
-        startActivity(i);
-        this.finish();
-    }
 
     private class Request extends AsyncTask<String, Void, String> {
 
@@ -163,6 +163,7 @@ public class FormularioActivity extends Activity {
 
                 }else{
 
+                    dialog.dismiss();
                     Toast.makeText(getApplicationContext(), mensagem, Toast.LENGTH_SHORT).show();
                 }
 

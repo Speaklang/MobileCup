@@ -28,7 +28,7 @@ public class MobileCupWS {
     public final static String SERVICE_MOBILE_CUP = "http://10.0.2.2:8080/MobileCupWebService/UsuarioServlet?";
 
 
-    public final static String BODY_REQUEST = "{  \"selector\": {\"devCode\" : {\"$eq\": \"1\"},\"timestamp\": " +
+    public final static String BODY_REQUEST = "{  \"selector\": {\"devCode\" : {\"$eq\": \"2\"},\"timestamp\": " +
             "{\"$gt\": 0 }},\"sort\": [{\"timestamp\": \"desc\"}  ],  \"limit\": 50 }";
 
 

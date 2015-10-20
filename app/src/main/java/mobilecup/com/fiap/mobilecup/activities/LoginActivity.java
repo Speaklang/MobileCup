@@ -114,7 +114,9 @@ public class LoginActivity extends Activity {
 
                 }else{
 
+                    dialog.dismiss();
                     Toast.makeText(getApplicationContext(), mensagem, Toast.LENGTH_SHORT).show();
+
                 }
 
             } catch (Exception e) {

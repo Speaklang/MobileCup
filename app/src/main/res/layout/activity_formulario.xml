@@ -89,23 +89,6 @@
         android:checked="false" />
 
     <Button
-        android:id="@+id/btnDepois"
-        android:layout_width="250dp"
-        android:layout_height="40dp"
-        android:layout_gravity="right|center_vertical"
-        android:background="@drawable/novo_btn_orange"
-        android:paddingLeft="@dimen/margin_between_elements_small"
-        android:paddingRight="@dimen/margin_between_elements_small"
-        android:text="Responder depois"
-        android:textColor="@color/white"
-        android:textSize="@dimen/label_size_small"
-        android:onClick="responderDepois"
-        android:layout_below="@+id/btnEnviar"
-        android:layout_alignLeft="@+id/btnEnviar"
-        android:layout_alignStart="@+id/btnEnviar"
-        android:layout_marginTop="10dp" />
-
-    <Button
         android:id="@+id/btnEnviar"
         android:layout_width="250dp"
         android:layout_height="40dp"
