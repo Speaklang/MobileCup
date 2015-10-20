@@ -32,6 +32,9 @@ public class MobileCupWS {
             "{\"$gt\": 0 }},\"sort\": [{\"timestamp\": \"desc\"}  ],  \"limit\": 50 }";
 
 
+    public final static  String SERVICE_USUARIO_INTERESSE = "http://10.0.2.2:8080/MobileCupWebService" +
+            "/UsuarioInteresseServlet?";
+
     public static String get(String url) throws Exception {
 
         InputStream content = null;

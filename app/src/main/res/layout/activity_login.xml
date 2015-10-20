@@ -48,7 +48,8 @@ tools:context="mobilecup.com.fiap.mobilecup.activities.LoginActivity">
                 android:id="@+id/edtSenha"
                 style="@style/NovoEditTextStyle"
                 android:hint="Senha"
-                android:inputType="textPassword" />
+                android:inputType="textPassword"
+                android:clickable="true" />
 
         </LinearLayout>
     </ScrollView>

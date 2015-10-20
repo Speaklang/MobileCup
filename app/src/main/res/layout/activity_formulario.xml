@@ -13,27 +13,12 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Formação Academica:"
-        android:id="@+id/txtFormacaoAcademica"
-        android:paddingLeft="@dimen/margin_between_elements_medium"
-        android:textColor="#ff000000"
-        android:paddingBottom="20dp"
-        android:layout_below="@+id/txtCInteresse"
-        android:layout_alignRight="@+id/txtPolitica"
-        android:layout_alignEnd="@+id/txtPolitica"
-        android:layout_marginTop="34dp"
-        android:layout_marginBottom="-15dp" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="Interesses"
         android:id="@+id/txtInteresses"
         android:paddingLeft="@dimen/margin_between_elements_medium"
+        android:layout_marginTop="30dp"
         android:textColor="#ff000000"
-        android:layout_below="@+id/spFormacaoAcademica"
-        android:layout_alignLeft="@+id/txtFormacaoAcademica"
-        android:layout_alignStart="@+id/txtFormacaoAcademica" />
+        android:layout_below="@+id/txtCInteresse" />
 
     <CheckBox
         android:layout_width="wrap_content"
@@ -63,7 +48,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Politica"
-        android:id="@+id/txtPolitica"
+        android:id="@+id/chkPolitica"
         android:paddingLeft="@dimen/margin_between_elements_medium"
         android:layout_below="@+id/chkDinheiro"
         android:layout_alignLeft="@+id/chkDinheiro"
@@ -76,16 +61,16 @@
         android:text="Mundo"
         android:id="@+id/chkMundo"
         android:paddingLeft="@dimen/margin_between_elements_medium"
-        android:layout_below="@+id/txtPolitica"
-        android:layout_alignLeft="@+id/txtPolitica"
-        android:layout_alignStart="@+id/txtPolitica"
+        android:layout_below="@+id/chkPolitica"
+        android:layout_alignLeft="@+id/chkPolitica"
+        android:layout_alignStart="@+id/chkPolitica"
         android:checked="false" />
 
     <CheckBox
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Pessoas"
-        android:id="@+id/txtPessoas"
+        android:id="@+id/chkPessoas"
         android:paddingLeft="@dimen/margin_between_elements_medium"
         android:layout_below="@+id/chkMundo"
         android:layout_alignLeft="@+id/chkMundo"
@@ -98,9 +83,9 @@
         android:text="Estilo de Vida"
         android:id="@+id/txtEstiloVida"
         android:paddingLeft="@dimen/margin_between_elements_medium"
-        android:layout_below="@+id/txtPessoas"
-        android:layout_alignLeft="@+id/txtPessoas"
-        android:layout_alignStart="@+id/txtPessoas"
+        android:layout_below="@+id/chkPessoas"
+        android:layout_alignLeft="@+id/chkPessoas"
+        android:layout_alignStart="@+id/chkPessoas"
         android:checked="false" />
 
     <Button
@@ -141,20 +126,10 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceLarge"
         android:text="Conte-nos sobre seus interesses."
+        android:layout_marginTop="10dp"
         android:id="@+id/txtCInteresse"
         android:layout_below="@+id/include"
         android:layout_centerHorizontal="true" />
-
-    <Spinner
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:id="@+id/spFormacaoAcademica"
-        android:layout_below="@+id/txtFormacaoAcademica"
-        android:layout_alignLeft="@+id/txtFormacaoAcademica"
-        android:layout_alignStart="@+id/txtFormacaoAcademica"
-        android:spinnerMode="dialog"
-        android:layout_marginLeft="8dp"
-        android:layout_marginBottom="10dp" />
 
 
 </RelativeLayout>
